@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/98a67fbdb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Balance Sheet</title>
+</head>
+
+<body>
+    <section class="title-section bg-danger">
+        <h1 class="text-center text-white balance-sheet">Balance Sheet</h1>
+    </section>
+    <section class="board-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <form>
+                        <select name="option" id="option" class="transaction-type">
+                            <option value="income">Income</option>
+                            <option value="expenses">Expenses</option>
+                        </select>
+                        <input type="text" placeholder="Description" class="add-description" />
+                        <input type="number" placeholder="amount" class="add-amount">
+                        <button class="add-button bg-danger">Add Entry</button>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <h4>Income</h4>
+                    <div class="income-reader bg-success">
+                        <h4>4,0958</h4>
+                    </div>
+                    <h4 class="mt-4">Expenses</h4>
+                    <div class="expense-reader bg-danger">
+                        <h4>4,0958</h4>
+                    </div>
+                    <h4 class="mt-4">Available Cash</h4>
+                    <div class="cash-reader bg-secondary">
+                        <h4>4,0958</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container income-div">
+        <!-- <section class="entry-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h4 class="text-success">Income</h4>
+                        <div class="income-table" id="id">
+                            <div class="detail-container">
+                                <span class="my-description">Shoes</span> <span class="my-amount">5000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h4 class="text-danger">Expenses</h4>
+                        <div class="expenses-table" id="id">
+                            <div class="detail-container">
+                                <span class="my-description">Shoes</span> <span class="my-amount">5000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </div>
+    <div class="container expense-div">
+        <!-- <section class="entry-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4 class="text-success">Income</h4>
+                            <div class="income-table" id="id">
+                                <div class="detail-container">
+                                    <span class="my-description">Shoes</span> <span class="my-amount">5000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <h4 class="text-danger">Expenses</h4>
+                            <div class="expenses-table" id="id">
+                                <div class="detail-container">
+                                    <span class="my-description">Shoes</span> <span class="my-amount">5000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

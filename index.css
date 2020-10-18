@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title-section {
+    height: 20vh;
+    padding: 30px;
+}
+
+.board-section {
+    padding-top: 80px;
+    height: 80vh;
+}
+
+form>select {
+    width: 90%;
+    padding: 10px;
+    outline: none;
+}
+
+form input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+}
+
+form .add-button {
+    width: 90%;
+    height: 8vh;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+.income-reader {
+    height: 8vh;
+    width: 90%;
+    color: white;
+    padding: 10px 0 0 20px;
+}
+
+.expense-reader {
+    height: 8vh;
+    width: 90%;
+    color: white;
+    padding: 10px 0 0 20px;
+}
+
+.cash-reader {
+    height: 8vh;
+    width: 90%;
+    color: white;
+    padding: 10px 0 0 20px;
+}
+
+.entry-section {
+    padding-top: 50px;
+    height: 10vh;
+}
+
+.detail-container {
+    height: 9vh;
+    border-bottom: 1px dotted green;
+    background-color: ivory;
+}
+
+.my-amount {
+    display: flex;
+    justify-content: flex-end;
+}
